@@ -1,0 +1,42 @@
+{
+  "app": {
+    "metaTitle": "Activity Tracker - 다운로드 허브",
+    "title": "ACTIVITY TRACKER",
+    "description1": "활동을 기록하고 생산성을 측정할 수 있는 완전 로컬 기반 앱입니다.",
+    "description2": "X분마다 가벼운 팝업이 떠서 지금 무엇을 하는지 물어봅니다.",
+    "description3": "활동을 수동으로 설정하고 Y분마다 확인만 하는 방식도 가능합니다. 시간 간격과 다양한 옵션은 설정에서 조정할 수 있습니다.",
+    "availableLanguagesPrefix": "지원 언어:",
+    "availableLanguagesLink": "아래 목록 보기",
+    "downloadButton": "최신 릴리스 다운로드",
+    "iosSoon": "iOS 지원은 곧 제공됩니다.",
+    "supportText1": "집중을 유지하거나 시간을 절약하는 데 도움이 됐다면 프로젝트를 후원해 주세요.",
+    "supportText2": "절약한 시간 1시간당 €0.10만 되어도 큰 힘이 됩니다. 어떤 후원이든 감사합니다.",
+    "supportButton": "후원하기",
+    "languageSelectLabel": "언어:",
+    "languagesHeading": "언어",
+    "languageNames": {
+      "de": "Deutsch",
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "pt": "Português",
+      "it": "Italiano",
+      "nl": "Nederlands",
+      "tr": "Türkçe",
+      "pl": "Polski",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية",
+      "hi": "हिन्दी",
+      "bn": "বাংলা",
+      "ur": "اُردُو",
+      "id": "Bahasa Indonesia",
+      "vi": "Tiếng Việt",
+      "th": "ไทย",
+      "ja": "日本語",
+      "ko": "한국어",
+      "zh-Hans": "简体中文",
+      "zh-Hant": "繁體中文"
+    }
+  }
+}

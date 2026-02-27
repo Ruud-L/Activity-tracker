@@ -1,0 +1,42 @@
+{
+  "app": {
+    "metaTitle": "Activity Tracker - Indirme Merkezi",
+    "title": "ACTIVITY TRACKER",
+    "description1": "Etkinliklerini takip edip verimliliğini ölçmek için tamamen yerel çalışan bir uygulama.",
+    "description2": "Her X dakikada bir, hafif bir açılır pencere ne yaptığını sorar.",
+    "description3": "Ayrıca etkinliği elle ayarlayıp sadece her Y dakikada bir onaylayabilirsin. Süreler ve birçok diğer seçenek ayarlardan değiştirilebilir.",
+    "availableLanguagesPrefix": "Mevcut diller:",
+    "availableLanguagesLink": "aşağıdaki listeye bak",
+    "downloadButton": "En son sürümü indir",
+    "iosSoon": "iOS desteği yakında.",
+    "supportText1": "Odakta kalmana veya zaman kazanmanı sağladıysa projeyi destekleyebilirsin.",
+    "supportText2": "Saat başına sadece €0,10 tasarruf bile büyük anlam taşır, ama her destek değerlidir.",
+    "supportButton": "Destek Ol",
+    "languageSelectLabel": "Dil:",
+    "languagesHeading": "Diller",
+    "languageNames": {
+      "de": "Deutsch",
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "pt": "Português",
+      "it": "Italiano",
+      "nl": "Nederlands",
+      "tr": "Türkçe",
+      "pl": "Polski",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية",
+      "hi": "हिन्दी",
+      "bn": "বাংলা",
+      "ur": "اُردُو",
+      "id": "Bahasa Indonesia",
+      "vi": "Tiếng Việt",
+      "th": "ไทย",
+      "ja": "日本語",
+      "ko": "한국어",
+      "zh-Hans": "简体中文",
+      "zh-Hant": "繁體中文"
+    }
+  }
+}
