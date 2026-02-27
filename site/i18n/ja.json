@@ -1,0 +1,42 @@
+{
+  "app": {
+    "metaTitle": "Activity Tracker - ダウンロードハブ",
+    "title": "ACTIVITY TRACKER",
+    "description1": "作業内容を記録し、生産性を見える化する完全ローカル型アプリです。",
+    "description2": "X分ごとに軽量なポップアップが表示され、今していることを確認します。",
+    "description3": "アクティビティを手動で設定し、Y分ごとに確認だけ行う使い方もできます。間隔やその他の設定は細かく調整できます。",
+    "availableLanguagesPrefix": "利用可能な言語:",
+    "availableLanguagesLink": "下の一覧を見る",
+    "downloadButton": "最新リリースをダウンロード",
+    "iosSoon": "iOS対応は近日公開予定です。",
+    "supportText1": "集中の維持や時間短縮に役立ったなら、このプロジェクトを支援できます。",
+    "supportText2": "節約できた1時間あたり0.10ユーロでも大きな力になります。もちろん、どんな支援でも感謝します。",
+    "supportButton": "支援する",
+    "languageSelectLabel": "言語:",
+    "languagesHeading": "言語",
+    "languageNames": {
+      "de": "Deutsch",
+      "en": "English",
+      "es": "Español",
+      "fr": "Français",
+      "pt": "Português",
+      "it": "Italiano",
+      "nl": "Nederlands",
+      "tr": "Türkçe",
+      "pl": "Polski",
+      "ru": "Русский",
+      "uk": "Українська",
+      "ar": "العربية",
+      "hi": "हिन्दी",
+      "bn": "বাংলা",
+      "ur": "اُردُو",
+      "id": "Bahasa Indonesia",
+      "vi": "Tiếng Việt",
+      "th": "ไทย",
+      "ja": "日本語",
+      "ko": "한국어",
+      "zh-Hans": "简体中文",
+      "zh-Hant": "繁體中文"
+    }
+  }
+}
