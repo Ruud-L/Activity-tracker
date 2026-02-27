@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; script-src 'self'; connect-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="no-referrer">
+  <title>Activity Tracker</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <div class="brand">Activity Tracker</div>
+      <div class="language-picker">
+        <label for="language-select" data-i18n="app.languageSelectLabel">Language:</label>
+        <select id="language-select" aria-label="Language"></select>
+      </div>
+    </header>
+
+    <section class="panel hero">
+      <h1 data-i18n="app.title">ACTIVITY TRACKER</h1>
+      <p class="hero-text" data-i18n="app.description1">A fully local app for tracking activity and measuring productivity.</p>
+      <p class="hero-subtle" data-i18n="app.description2">Every X minutes, a lightweight popup asks what you're doing.</p>
+      <p class="hero-subtle" data-i18n="app.description3">You can also set an activity manually and only confirm it every Y minutes. All timings and many other options can be adjusted in the app settings.</p>
+      <p class="hint-line">
+        <span data-i18n="app.availableLanguagesPrefix">Available languages:</span>
+        <a href="#languages" data-i18n="app.availableLanguagesLink">see list below</a>.
+      </p>
+    </section>
+
+    <section id="download" class="panel section-center">
+      <h2 data-i18n="app.downloadHeading">Download</h2>
+      <a
+        id="download-link"
+        class="button button-primary"
+        href="./Activity_Tracker_Setup.exe"
+        data-i18n="app.downloadSecondary"
+      >Direct Installer (Windows .exe)</a>
+      <p class="muted" data-i18n="app.iosSoon">iOS support coming soon.</p>
+    </section>
+
+    <section id="support" class="panel section-center">
+      <h2 data-i18n="app.supportHeading">Support</h2>
+      <p data-i18n="app.supportText1">If this helped you stay focused or saved you time, you can support the project.</p>
+      <p data-i18n="app.supportText2">Even €0.10 per hour saved would mean a lot, but any support is appreciated.</p>
+      <a
+        class="button"
+        href="https://paypal.me/RuudLi"
+        target="_blank"
+        rel="noopener noreferrer"
+        data-i18n="app.supportButton"
+      >Support</a>
+    </section>
+
+    <section id="languages" class="panel">
+      <h2 data-i18n="app.languagesHeading">Languages</h2>
+      <div id="language-links" class="language-links"></div>
+    </section>
+
+    <footer id="impressum" class="panel footer legal">
+      <h2 data-i18n="app.footerImprint">Impressum</h2>
+      <p data-i18n="app.footerImprintText">Responsible for this website: Ruud Liebezeit.</p>
+      <p data-i18n="app.footerCopyright">Copyright © Ruud Liebezeit. All rights reserved.</p>
+    </footer>
+
+    <div id="loading-state" class="status">Loading translations...</div>
+    <div id="fatal-error" class="status status-error hidden"></div>
+    <noscript>
+      <div class="status status-error">JavaScript is required to load translations.</div>
+    </noscript>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
